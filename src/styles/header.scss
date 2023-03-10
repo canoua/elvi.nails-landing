@@ -1,0 +1,53 @@
+@import './phone.scss';
+
+.header{
+  padding: 20px 0;
+
+  &-inner{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo{
+    transition: .3s;
+
+    &:hover{
+      transform: scale(1.2);
+    }
+  }
+
+  &__link{
+    transition: .3s;
+    
+
+    &:hover{
+      color: $pink;
+    }
+  }
+}
+
+.list{
+  display: flex;
+  justify-content: space-between;
+
+  &__item{
+    list-style: none;
+    padding: 0 30px;
+
+    &:first-child{
+      padding-left: 0;
+    }
+
+    &:last-child{
+      padding-right: 0;
+    }
+  }
+
+  &__link{
+    font-size: 18px;
+    line-height: 162%;
+    font-weight: 400;
+    font-family: 'Nunito';
+    color: rgba(54,54,54,1);
+  }
+}

@@ -63,7 +63,7 @@ module.exports = {
       filename: '[name].[contenthash].css',
     }),
     new FaviconsWebpackPlugin({
-      logo: './src/images/logo-3.jpg',
+      logo: './src/images/favicon.png',
       mode: 'webapp',
       devMode: 'webapp',
       prefix: 'assets/favicons/', 

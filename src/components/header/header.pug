@@ -1,0 +1,13 @@
+include logo.pug
+include list.pug
+include phone.pug
+
+mixin header 
+  header.header
+    .container 
+      .header-inner
+        +logo
+        +list
+        +phone
+
+  

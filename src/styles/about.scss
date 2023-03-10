@@ -1,0 +1,29 @@
+.about{
+  background: rgb(255, 242, 244);
+  padding: 50px 0;
+
+  &-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__box{
+    width: 50%;
+  }
+
+  &__title{
+    margin-bottom: 50px;
+  }
+
+  &__list{
+    padding-left: 20px;
+
+    &__item{
+      list-style: disc;
+      font-family: 'Nunito';
+      font-size: 18px;
+      line-height: 162%;
+    }
+  }
+}

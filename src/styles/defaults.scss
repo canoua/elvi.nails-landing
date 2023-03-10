@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container{
+  width: 1190px;
+  margin: 0 auto;
+}
+
+.title{
+  color: #363636;
+  font-family: 'Golos Text';
+  font-weight: 40;
+  font-size: 37px;
+  line-height: 123%;
+}
+
+.title-3{
+  color: #363636;
+  font-family: 'Golos Text';
+  font-size: 36px;
+  line-height: 130%;
+  font-weight: 400;
+}
