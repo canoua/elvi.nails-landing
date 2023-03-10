@@ -1,0 +1,83 @@
+.services{
+  padding: 50px 0;
+
+  &__title{
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  &__card{
+    width: 40%;
+    height: 323px;
+    border-radius: 8px;
+    transition: .5s;
+    cursor: pointer;
+    padding: 12px 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    &__info{
+      background-color: #fff;
+      padding: inherit;
+      width: 100%;
+      display: flex;
+      align-items:center;
+      justify-content: center;
+      flex-direction: column;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+    }
+
+    &__title{
+      font-family: 'Golos Text';
+      font-weight: 400;
+      font-size: 21px;
+      line-height: 145%;
+      margin-bottom: 10px;
+    }
+
+    &:hover{
+      transform: scale(1.01);
+      box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    &-wrapper{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &_1{
+      background-image: url('./../images/service-1.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    &_2{
+      background-image: url('./../images/service-1.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    &__price{
+      font-family: 'Nunito';
+      font-size: 18px;
+      line-height: 162%;
+    }
+
+    &__btn{
+      background-color: $pink;
+      width: 100%;
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+      text-align: center;
+      color: #fff;
+      padding: 12px 30px;
+      font-family: 'Nunito';
+      font-size: 18px;
+      line-height: 155%;
+      font-weight: 300;
+    }
+  }
+}

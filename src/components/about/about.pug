@@ -4,8 +4,8 @@ mixin about
   section.about
     .container 
       .about-inner 
-        .about__box
+        .about__box.about__box_left
           h3.title-3.about__title Обо мне
           +about-list
-        .about__box 
-          img(src="", alt="sertificate")
+        .about__box.about__box_right
+          img(src=require('./images/sertificate.jpg') alt="sertificate").about__box__image

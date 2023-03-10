@@ -6,10 +6,12 @@
   &-inner{
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   &__logo{
     transition: .3s;
+    width: 102px;
 
     &:hover{
       transform: scale(1.2);

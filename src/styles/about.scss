@@ -10,6 +10,21 @@
 
   &__box{
     width: 50%;
+
+    &_left{
+      margin-right: 30px;
+    }
+
+    &_right{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &__image{
+      height: 550px;
+      // border-radius: 18px;
+    }
   }
 
   &__title{
