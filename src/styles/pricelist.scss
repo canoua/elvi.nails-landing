@@ -2,15 +2,36 @@
 
   &__title{
     margin-bottom: 50px;
+    text-align: center;
   }
 }
 
 .table{
+  width: 60%;
+  margin: 0 auto;
   border-spacing: 0;
+  border-collapse: collapse;
+  border: 1px solid #000;
+  font-family: 'Nunito';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 162%;
 
+  &__row{
+    
+    &:nth-child(odd){
+      background-color: #fff6f7;
+    }
+  }
+  
   &__data{
     border: 1px solid #000;
     margin: 0;
+    padding: 10px;
+
+    &_price{
+      text-align: center;
+    }
   }
 }
 

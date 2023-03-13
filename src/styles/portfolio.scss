@@ -1,0 +1,35 @@
+.portfolio{
+  padding: 50px;
+
+  &__title{
+    margin-bottom: 50px;
+    text-align: center;
+  }
+}
+
+.slider{
+  height:650px;
+  width: 100%;
+}
+
+.swiper.mySwiper {
+  width: 100%;
+  height: 100%;
+}
+                         
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
