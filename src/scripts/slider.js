@@ -9,7 +9,6 @@ Swiper.use([Navigation, Pagination]);
 
 document.addEventListener('DOMContentLoaded', ()=>{
   const swiper = new Swiper(".mySwiper", {
-    modules: [Navigation, Pagination],  
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
