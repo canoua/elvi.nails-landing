@@ -1,4 +1,16 @@
 @font-face {
+  font-family: 'icomoon';
+  src:  url('./fonts/icons/icomoon.eot?4s0lb');
+  src:  url('./fonts/icons/icomoon.eot?4s0lb#iefix') format('embedded-opentype'),
+    url('./fonts/icons/icomoon.ttf?4s0lb') format('truetype'),
+    url('./fonts/icons/icomoon.woff?4s0lb') format('woff'),
+    url('./fonts/icons/icomoon.svg?4s0lb#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
     font-family: 'Golos Text';
     src: url('./fonts/GolosText/GolosText-Regular.eot');
     src: url('./fonts/GolosText/GolosText-Regular.eot?#iefix') format('embedded-opentype'),

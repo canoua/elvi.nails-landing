@@ -23,7 +23,6 @@
 
     &__image{
       height: 550px;
-      // border-radius: 18px;
     }
   }
 
@@ -41,4 +40,17 @@
       line-height: 162%;
     }
   }
+}
+
+.subtitle{
+  font-family: 'Nunito';
+  font-size: 18px;
+  line-height: 162%;
+  display: flex;
+}
+
+.about__price-no{
+  text-decoration: line-through;
+  color: red;
+  margin: 0 5px 0 10px;
 }

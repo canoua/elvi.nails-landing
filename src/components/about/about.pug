@@ -5,7 +5,12 @@ mixin about
     .container.container-content  
       .about-inner 
         .about__box.about__box_left
-          h3.title-3.about__title Обо мне
+          h3.title-3.about__title О моей работе
+          .subtitle 
+            span Знакомство с мастером
+            span.about__price-no 1000
+            span 500 ₽
+              
           +about-list
         .about__box.about__box_right
           img(src=require('./images/sertificate.jpg') alt="sertificate").about__box__image

@@ -49,5 +49,11 @@
     line-height: 1.62;
     font-weight: 400;
     color: #000;
+    transition: .3s;
+
+    &:hover{
+      background-color: $pink;
+      color: #fff;
+    }
   }
 }

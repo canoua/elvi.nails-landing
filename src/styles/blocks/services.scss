@@ -78,7 +78,12 @@
       font-family: 'Nunito';
       font-size: 18px;
       line-height: 155%;
-      font-weight: 300;
+      font-weight: 400;
+      transition: .3s;
+
+      &:hover{
+        color: #000;
+      }
     }
   }
 }

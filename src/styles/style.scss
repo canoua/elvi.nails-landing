@@ -1,13 +1,14 @@
-@import './defaults.scss';
-@import './vars.scss';
-@import './fonts.scss';
-@import './header.scss';
-@import './desktop.scss';
-@import './about.scss';
-@import './services.scss';
-@import './pricelist.scss';
-@import './portfolio.scss';
-@import './contacts.scss';
-@import './footer.scss';
-@import './btnToTop.scss';
+@import './defaults/vars.scss';
+@import './defaults/defaults.scss';
+@import './defaults/fonts.scss';
+
+@import './blocks/header.scss';
+@import './blocks/desktop.scss';
+@import './blocks/about.scss';
+@import './blocks/services.scss';
+@import './blocks/pricelist.scss';
+@import './blocks/portfolio.scss';
+@import './blocks/contacts.scss';
+@import './blocks/footer.scss';
+@import './blocks/btnToTop.scss';
 

@@ -5,9 +5,16 @@ mixin contacts
         .contacts__box 
           h3.title-3.contacts__title Контакты
           ul.contacts__list
-            li.contacts__list__item +888888888
-            li.contacts__list__item Омск, ул. Заозёрная, 16
-            li.contacts__list__item Омск, ул. Заозёрная, 16
-          a(href="#").contacts__link Записаться
+            li.contacts__list__item  
+              span.icon-phone 
+              span +888888888
+            li.contacts__list__item 
+              span.icon-location 
+              span Омск, ул. Заозёрная, 16 
+            li.contacts__list__item 
+              span.icon-location 
+              span Омск, ул. 14-й Военный городок, 144
+          a(href="#").contacts__link Записаться →
         .contacts__box 
           .map#map
+            iframe(src='https://yandex.ru/map-widget/v1/?um=constructor%3Aaff77cf948e747a56c4afc73ff1ce8e3b99cf12cb77bb931d53730c8c26daeda&source=constructor', width='100%', height='500', frameborder='0')

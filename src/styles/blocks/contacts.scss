@@ -1,0 +1,83 @@
+.contacts{
+  padding: 100px 0;
+  background-color: #fffcfc;
+
+  &-inner{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__box{
+    width: 50%;
+  }
+
+  &__title{
+    margin-bottom: 50px;
+  }
+
+  &__list{
+    margin-bottom: 30px;
+
+    &__item{
+      color: $primaryColor;
+      font-family: 'Golos text';
+      font-size: 18px;
+      line-height: 155%;
+      font-weight: 400;
+      margin-bottom: 10px;
+
+      &:first-child{
+        margin-bottom: 20px;
+      }
+
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__link{
+    border: 3px solid $pink;
+    border-radius: 8px;
+    padding: 10px 30px;
+    display: inline-block;
+    font-family: 'Nunito';
+    font-size: 18px;
+    line-height: 1.62;
+    font-weight: 400;
+    color: #000;
+    transition: .3s;
+
+    &:hover{
+      background-color: $pink;
+      color: #fff;
+    }
+  }
+}
+
+.map{
+  height: 500px;
+  width: 100%;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone:before {
+  content: "\e942";
+  margin-right: 10px;
+}
+
+.icon-location:before {
+  content: "\e947";
+  margin-right: 10px;
+}

@@ -27,7 +27,7 @@ a{
 }
 
 .title{
-  color: #363636;
+  color: $primaryColor;
   font-family: 'Golos Text';
   font-weight: 40;
   font-size: 37px;
@@ -35,7 +35,7 @@ a{
 }
 
 .title-3{
-  color: #363636;
+  color: $primaryColor;
   font-family: 'Golos Text';
   font-size: 36px;
   line-height: 130%;
